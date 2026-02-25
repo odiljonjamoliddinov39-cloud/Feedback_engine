@@ -1,0 +1,23 @@
+{
+  "name": "feedback_engine",
+  "version": "1.0.0",
+  "description": "The space to improve business",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm --prefix apps/api run dev\" \"npm --prefix apps/web run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odiljonjamoliddinov39-cloud/Feedback_engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odiljonjamoliddinov39-cloud/Feedback_engine/issues"
+  },
+  "homepage": "https://github.com/odiljonjamoliddinov39-cloud/Feedback_engine#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
